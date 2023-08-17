@@ -1,0 +1,71 @@
+.containerTitulo {
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+.mainInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.eventImage {
+  width: 100%;
+  height: 50vh;
+  object-fit: contain;
+}
+
+.eventName {
+  margin: 12px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.infoParagraph {
+  margin: 4px 0;
+}
+
+.dateParagraph {
+  margin: 4px 0;
+  color: red;
+  font-weight: 700;
+}
+
+.seatInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.seatMapTitle {
+  margin-top: 6px;
+  color: black;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.pleaseNoteLegend {
+  margin-top: 25px;
+}
+
+.pleaseRangeLegend {
+  margin-top: 14px;
+  color: black;
+  font-weight: 700;
+}
+
+.goToShop {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.imagesSeatMapEvent {
+  width: 100%;
+}
